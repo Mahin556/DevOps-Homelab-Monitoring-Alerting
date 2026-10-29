@@ -3,6 +3,8 @@
 ## Overview
 Grafana visualizations are reactive; this episode adds proactive alerting with Prometheus rules and Alertmanager. Alerts fire when the Node Exporter metrics cross a threshold and are routed to Slack so that operators learn about issues before users complain.
 
+Condition are evaluated at the prometheus level alertmanager only used to send alerts to diff notifications channels.
+
 ## Stack Components
 - `prometheus.yml` – adds `rule_files` and configures Alertmanager at `alertmanager:9093`.
 - `alert_rules.yml` – ships a sample `HighCPUUsage` alert.
