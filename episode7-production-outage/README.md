@@ -9,7 +9,8 @@ Incidents rarely follow the “random blip” pattern. This episode introduces a
 - `scripts/fire_errors.sh` – still useful for baseline noise.
 - `docker-compose.yml` – orchestrates the app, exporters, Prometheus, Alertmanager, and Grafana.
 
-<img width="528" height="281" alt="image" src="https://github.com/user-attachments/assets/0e8cfdee-6272-4e47-b878-ce802da2c339" />
+<img width="600" height="36" alt="image" src="https://github.com/user-attachments/assets/db7a95fd-c834-46ea-931b-86eefe0c9342" />
+
 
 <img width="528" height="281" alt="image" src="https://github.com/user-attachments/assets/a37429af-6f27-4da9-8d94-013a4e71aa44" />
 
