@@ -9,6 +9,9 @@ Incidents rarely follow the “random blip” pattern. This episode introduces a
 - `scripts/fire_errors.sh` – still useful for baseline noise.
 - `docker-compose.yml` – orchestrates the app, exporters, Prometheus, Alertmanager, and Grafana.
 
+![Uploading image.png…]()
+
+
 ## Run the Demo
 1. `docker compose up --build`.
 2. Toggle fail mode: `docker compose exec web touch /tmp/fail_mode.flag` (remove the file to recover).
