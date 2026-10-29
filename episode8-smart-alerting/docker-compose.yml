@@ -47,7 +47,7 @@ services:
       - GF_SECURITY_ADMIN_USER=admin
       - GF_SECURITY_ADMIN_PASSWORD=admin
     volumes:
-      - grafana-data:/var/lib/grafana #this volume store all grafana data, our dashboards will be safe if container crashes
+      - grafana-data:/var/lib/grafana #this volume store all grafana data, our dashboards will be safe if container crashes/docker compose down
     depends_on:
       - prometheus
 
