@@ -3,6 +3,21 @@
 ## Overview
 This episode is intentionally bare‑bones: a single Flask service (`app.py`) that randomly crashes to highlight how brittle life is without any monitoring or telemetry. There is no `/metrics`, no dashboards, and no alerting, so failures can only be spotted manually.
 
+## Without observablity
+- No idea what's happening
+- Guessing
+- nothing watching
+- no alerts
+- no dashboard
+- customer know before you
+
+In monitoring we turn chaos into measurable data, eyes on your system
+
+## 3 pillors
+- metrics -> cpu, memory, disk, latency
+- logs -> what happened -> error, exception
+- tracing -> where -> request flow, latency at each hope
+
 ## Stack Components
 - `app.py` – demo application with a random crash path and a `/health` probe.
 - `Dockerfile` – containerizes the Flask app for parity with later episodes.
