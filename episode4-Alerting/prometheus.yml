@@ -9,6 +9,7 @@ scrape_configs:
 rule_files:
   - alert_rules.yml
 
+# Dispatch connection = prometheus does not send alerts it send alert to altermanager and then alertmanagegr send it to notification channels.
 alerting:
   alertmanagers:
     - static_configs:
